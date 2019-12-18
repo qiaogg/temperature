@@ -7,7 +7,7 @@
       </el-header>
       <el-container>
         <el-main>
-          <div style="height:400px;width:1470px;background:#FFFFFF;">
+          <div style="height:400px;width:1470px;background:red;">
                 <el-carousel height="400px">
                   <el-carousel-item >
                    <img style="width:1490px;height:400px" src="../assets/03.jpg" alt="">
@@ -258,7 +258,7 @@
     let le = {
             backgroundColor: '#0000',
             title: {
-            // text: 'AQI - 雷达图',
+             text: 'AQI - 雷达图',
                 left: 'center',
                 textStyle: {
                     color: '#eee'
@@ -472,7 +472,7 @@
                 ],
                 series : [
                     {
-                        name:'温度',
+                        name:'直接访问',
                         type:'bar',
                         barWidth: '70%',
                          boxDepth: 80,
@@ -523,7 +523,7 @@
                 ],
                 series : [
                     {
-                        name:'温度',
+                        name:'直接访问',
                         type:'bar',
                         barWidth: '100%',
                          boxDepth: 80,
@@ -574,7 +574,7 @@
                 ],
                 series : [
                     {
-                        name:'温度',
+                        name:'直接访问',
                         type:'bar',
                         barWidth: '70%',
                          boxDepth: 80,
@@ -626,7 +626,7 @@
                 ],
                 series : [
                     {
-                        name:'温度',
+                        name:'直接访问',
                         type:'bar',
                         barWidth: '70%',
                          boxDepth: 80,
@@ -678,7 +678,7 @@
                 ],
                 series : [
                     {
-                        name:'温度',
+                        name:'直接访问',
                         type:'bar',
                         barWidth: '70%',
                          boxDepth: 80,
@@ -729,7 +729,7 @@ let option61 = {
                 ],
                 series : [
                     {
-                        name:'温度',
+                        name:'直接访问',
                         type:'bar',
                         barWidth: '70%',
                          boxDepth: 80,
@@ -780,7 +780,7 @@ let option61 = {
                 ],
                 series : [
                     {
-                        name:'温度',
+                        name:'直接访问',
                         type:'bar',
                         barWidth: '70%',
                          boxDepth: 80,

@@ -7,7 +7,7 @@
       </el-header>
       <el-container>
         <el-main>
-          <div style="height:400px;width:1470px;background:#FFFFFF;">
+          <div style="height:400px;width:1470px;background:red;">
                 <el-carousel height="400px">
                   <el-carousel-item >
                    <img style="width:1490px;height:400px" src="../assets/03.jpg" alt="">
@@ -221,7 +221,6 @@
       let chart62 = echarts.init(document.getElementById('f2'));
       let chart71 = echarts.init(document.getElementById('g1'));
       let chart72 = echarts.init(document.getElementById('g2'));
-      //今日温度变化对象
       let tem = {
                 title : {
                     text: '本周温度分布范围',
@@ -312,7 +311,6 @@
 
             ]
         };
-
      let day ={
                 xAxis: {
                 type: 'category',
@@ -343,7 +341,7 @@
             }]
         };
     //未来一周的温度变化图
-     let sumss = { 
+     let sumss = {
               title: {
                   text: '未来一周温差变化',
                   subtext: '杭州'
@@ -472,7 +470,7 @@
                 ],
                 series : [
                     {
-                        name:'温度',
+                        name:'直接访问',
                         type:'bar',
                         barWidth: '70%',
                          boxDepth: 80,
@@ -523,7 +521,7 @@
                 ],
                 series : [
                     {
-                        name:'温度',
+                        name:'直接访问',
                         type:'bar',
                         barWidth: '100%',
                          boxDepth: 80,
@@ -574,7 +572,7 @@
                 ],
                 series : [
                     {
-                        name:'温度',
+                        name:'直接访问',
                         type:'bar',
                         barWidth: '70%',
                          boxDepth: 80,
@@ -626,7 +624,7 @@
                 ],
                 series : [
                     {
-                        name:'温度',
+                        name:'直接访问',
                         type:'bar',
                         barWidth: '70%',
                          boxDepth: 80,
@@ -678,7 +676,7 @@
                 ],
                 series : [
                     {
-                        name:'温度',
+                        name:'直接访问',
                         type:'bar',
                         barWidth: '70%',
                          boxDepth: 80,
@@ -729,7 +727,7 @@ let option61 = {
                 ],
                 series : [
                     {
-                        name:'温度',
+                        name:'直接访问',
                         type:'bar',
                         barWidth: '70%',
                          boxDepth: 80,
@@ -780,7 +778,7 @@ let option61 = {
                 ],
                 series : [
                     {
-                        name:'温度',
+                        name:'直接访问',
                         type:'bar',
                         barWidth: '70%',
                          boxDepth: 80,

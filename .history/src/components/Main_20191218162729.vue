@@ -523,7 +523,7 @@
                 ],
                 series : [
                     {
-                        name:'温度',
+                        name:'直接访问',
                         type:'bar',
                         barWidth: '100%',
                          boxDepth: 80,
@@ -574,7 +574,7 @@
                 ],
                 series : [
                     {
-                        name:'温度',
+                        name:'直接访问',
                         type:'bar',
                         barWidth: '70%',
                          boxDepth: 80,
@@ -626,7 +626,7 @@
                 ],
                 series : [
                     {
-                        name:'温度',
+                        name:'直接访问',
                         type:'bar',
                         barWidth: '70%',
                          boxDepth: 80,
@@ -678,7 +678,7 @@
                 ],
                 series : [
                     {
-                        name:'温度',
+                        name:'直接访问',
                         type:'bar',
                         barWidth: '70%',
                          boxDepth: 80,
@@ -729,7 +729,7 @@ let option61 = {
                 ],
                 series : [
                     {
-                        name:'温度',
+                        name:'直接访问',
                         type:'bar',
                         barWidth: '70%',
                          boxDepth: 80,
@@ -780,7 +780,7 @@ let option61 = {
                 ],
                 series : [
                     {
-                        name:'温度',
+                        name:'直接访问',
                         type:'bar',
                         barWidth: '70%',
                          boxDepth: 80,
